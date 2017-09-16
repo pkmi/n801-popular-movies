@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Grey 700 -->
+    <color name="colorPrimary">#000000</color>
+    <!-- Black -->
+    <color name="colorPrimaryDark">#455a64</color>
+    <!-- Material Teal 300 -->
+    <color name="colorAccent">#4db6ac</color>
+    <color name="colorAccentLight">#60e1d4</color>
+</resources>
