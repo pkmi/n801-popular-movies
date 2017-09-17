@@ -106,8 +106,6 @@ public class MainActivity extends AppCompatActivity
 
     private MovieDbRecyclerAdapter mMovieDbRecyclerAdapter;
 
-    private List<MovieParcelable> mMovieList;
-
     private Toast mSortOrderToast;
     //endregion Declare reference members
 
@@ -427,17 +425,17 @@ public class MainActivity extends AppCompatActivity
                 }
             }
 
-            mMovieList = null;
+            List<MovieParcelable> movieList = null;
             try {
-                mMovieList = MovieDbJsonUtility.getMovieDbStringsFromJson(queryResult);
+                movieList = MovieDbJsonUtility.getMovieDbStringsFromJson(queryResult);
             } catch (JSONException|java.lang.NullPointerException e) {
                 // Show error message below..
             } finally{
-                if (mMovieList == null){
+                if (movieList == null){
                     showErrorMessage();
                 }
             }
-            return mMovieList;
+            return movieList;
         }
 
         @Override
