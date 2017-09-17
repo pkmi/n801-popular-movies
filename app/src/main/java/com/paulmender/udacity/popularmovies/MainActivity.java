@@ -27,14 +27,14 @@ Stage 1 Requirements:
     8. Completed In a background thread, app queries the /movie/popular or /movie/top_rated API for the sort criteria specified in the settings menu.
 
 General Requirements:
-    TODO: App conforms to common standards found in the Android Nanodegree General Project Guidelines
+    Completed: App conforms to common standards found in the Android Nanodegree General Project Guidelines
     - Java      Completed:
     - Git       Completed: Note: For Stage 1, did not include the type.
     - Core      Completed: Note: The app may or may not adhere to Google Play Store App policies.
-    - Tablet
+    - Tablet    Ignored for this project per Carlos.
 
 Other Implementation Guide Requirements
-    1. Oompleted: (Using gradle.properties/BuildConfig) IMPORTANT: PLEASE REMOVE YOUR API KEY WHEN SHARING CODE PUBLICALLY
+    1. Completed: (Using gradle.properties/BuildConfig) IMPORTANT: PLEASE REMOVE YOUR API KEY WHEN SHARING CODE PUBLICALLY
     2. Completed: You must make sure your app does not crash when there is no network connection!
 
 */
