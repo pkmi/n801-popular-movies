@@ -420,15 +420,23 @@ public class MainActivity extends AppCompatActivity
             try {
                 queryResult = MovieDbUtility.getResponseFromHttpUrl(queryUrl);
             } catch (IOException e) {
-                e.printStackTrace();
+                // Show error message below.
+            } finally{
+                if (queryResult == null){
+                    showErrorMessage();
+                }
             }
 
+            mMovieList = null;
             try {
                 mMovieList = MovieDbJsonUtility.getMovieDbStringsFromJson(queryResult);
-            } catch (JSONException e) {
-                e.printStackTrace();
+            } catch (JSONException|java.lang.NullPointerException e) {
+                // Show error message below..
+            } finally{
+                if (mMovieList == null){
+                    showErrorMessage();
+                }
             }
-
             return mMovieList;
         }
 
