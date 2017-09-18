@@ -20,5 +20,5 @@ App conforms to common standards found in the Android Nanodegree General Project
 #### Other Implementation Guide Requirements
 1. Completed: IMPORTANT: PLEASE REMOVE YOUR API KEY WHEN SHARING CODE PUBLICALLY
 * Note: You will need to configure your own API key value in the gradle.properties file by adding a line as follows: 
-    #####api_key_v3="*your Movie DB API Key here*"
+    api_key_v3="*your Movie DB API Key here*"
 2. Completed: You must make sure your app does not crash when there is no network connection!
