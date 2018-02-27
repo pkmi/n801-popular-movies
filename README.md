@@ -1,4 +1,4 @@
-# n801-popular-movies
+# nd801-popular-movies-1
 ## Udacity Android Developer Nanodegree - Popular Movies Project
 ##### Popular Movies is an application project for the Udacity Android Developer Nanodegree
 ##### Author: Paul Mender
